@@ -1,0 +1,116 @@
+﻿body {
+	text-align: center;
+	font-family: "Century Gothic", sans-serif;
+}
+
+.main {
+	width: 700px;
+	height: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.name {
+	line-height: 1;
+	font-size: 50px;
+	margin-bottom: -30px;
+}
+
+.surname {
+	line-height: 1;
+	font-size: 40px;
+}
+
+.address {
+	font-size: 15px;
+	color: #aaa;
+}
+
+.job {
+	position: relative;
+	top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(81, 141, 212);
+}
+
+	.job:before,
+	.job:after {
+		content: '';
+		width: 250px;
+		height: 1px;
+		background-color: rgb(81, 141, 212);
+		position: absolute;
+		top: 10px;
+		left: 0px;
+	}
+
+	.job:after {
+		left: 450px;
+	}
+
+.main_bottom {
+	display: flex;
+	height: 100px;
+	margin-top: 50px;
+}
+
+.first {
+	text-align: left;
+	width: 75%;
+}
+
+
+
+.headone {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.left_1 {
+	display: flex;
+	margin-top: 15px;
+}
+
+.left {
+	color: rgb(81, 141, 212);
+	font-size: 12px;
+}
+
+.right {
+	margin-left: 15px;
+}
+
+.head {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.head_bottom {
+	font-size: 15px;
+	color: #aaa;
+}
+
+.head_bottom_text {
+	font-size: 12px;
+}
+.second {
+	background-color: rgba(81, 141, 170, .5);
+	text-align: left;
+	width: 25%;
+	height:750px;
+	padding: 3px;
+	
+}
+.headtwo {
+	margin-top: 15px;
+}
+
+.right_1 .sub {
+	font-weight: 700;
+	color: #000;
+}
+
+.head_bottom_text_1 {
+	margin-top: 10px;
+}
